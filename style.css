@@ -1,0 +1,110 @@
+body{
+  width: 100%;
+  margin: 0 auto;
+}
+ul{float: right
+}
+ul li{
+  list-style-type: none;
+  display: inline;
+  padding: 0 8px;
+  font-size: 13px;
+  margin-right: 5px;
+}
+ul li a{
+  text-decoration: none;
+}
+.googleapps, .notification, .gmail-access{
+  border: 1px solid lightgray;
+  padding: 3px 10px 3px 10px;
+  background-color: gray;
+}
+.notification{
+  border-radius: 50%;
+  padding: 4px 10px 4px 10px;
+}
+.gmail-access{
+  border-radius: 50%;
+  padding: 8px 10px 8px 20px;
+}
+.glog{
+  height: 233px;
+  margin-top: 89px;
+  position:relative;
+  left: 40.5%;
+  top: 33%;
+  display: inline-block;
+}
+#googlelog{
+  padding-top: 101px;
+  margin: 0 auto;
+}
+.searchbar{
+  padding: 0 15px;
+  margin: 0;
+  position: absolute;
+  top: 230px;
+  left: -53%;
+  width: 580px;
+  height: 45px;
+  box-shadow: 0 0 1.5px 1.5px lightgray;
+  border: 0 solid white;
+  font: 16px arial,sans-serif;
+  line-height: normal;
+  line-height: 34px;
+
+}
+.google-bottom{
+  position: absolute;
+  top: 300px;
+  width: 280px;
+}
+.g-search{
+  border: 1px solid #c6c6c6;
+  border-radius: 2px;
+  line-height: 27px;
+  height: 36px;
+  font-size: 13px;
+  text-align: center;
+  padding: 0 16px;
+  font-weight: bold;
+  color: gray;
+}
+.f-luck{
+  border: 1px solid #c6c6c6;
+  border-radius: 2px;
+  line-height: 27px;
+  height: 36px;
+  font-size: 13px;
+  text-align: center;
+  padding: 0 16px;
+  font-weight: bold;
+  color: gray;
+  float: right;
+}
+footer{
+  position: relative;
+  top: 400px;
+  border: 1px solid gray;
+}
+.abafooter{
+  float: left;
+}
+.ptsfooter{
+  float:right;
+}
+
+.g-search:hover{
+  border: 1px solid black;
+  color: black;
+}
+.f-luck:hover{
+  border: 1px solid black;
+  color: black;
+}
+.searchbar:hover{
+  box-shadow: 1px 1px 2px 2px lightgray;
+}
+ul li a:hover{
+  text-decoration: underline;
+}
